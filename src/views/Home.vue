@@ -6,7 +6,7 @@
 					<h2 style="font-weight: bold; color: #3E64FF; line-height: 48px">Hi, i'm Willy Aprada</h2>
 					<h1 style="font-size: 48px; line-height: 60px; font-weight: bold; letter-spacing: 0.3px; color: black">
 						Building digital products, brands <br>
-						<span style="font-weight: bold; color: #3E64FF"><img src="../assets/images/ic_skill.png" style="width: 7%"> experience.</span>
+						<span style="font-weight: bold; color: #3E64FF"><img src="../assets/images/ic_skill.png" class="inline-block" style="width: 7%"> experience.</span>
 					</h1>
 					<p style="font-size: 18px; line-height: 40px">
 						a <strong>Product Designer</strong> and <strong>Visual Developer</strong><br>
