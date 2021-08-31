@@ -4,7 +4,7 @@
 			<div class="input-container">
 				<input type="text" placeholder="Email address" class="mr-3">
 
-				<button class="btn btn-blue-gradient mr-3">Connect With Me</button>
+				<button class="btn btn-blue-gradient w-2/3 mr-3">Connect With Me</button>
 
 				<button class="btn btn-outline-blue w-1/3">Contact</button>
 			</div>
