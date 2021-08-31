@@ -1,0 +1,24 @@
+.btn {
+	width: 55%;
+	margin: 0;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	font-size: 0.9em;
+}
+
+.btn-blue-gradient {
+	color: white;
+	background: linear-gradient(90deg, rgba(77,97,196,1) 36%, rgba(61,172,237,1) 100%);
+}
+
+.btn-outline-blue {
+	border: 1px solid #4D61C4;
+	color: #4D61C4;
+	background: transparent;
+}
+
+.text-blue-gradient {
+	background: linear-gradient(90deg, rgba(77,97,196,1) 36%, rgba(61,172,23,1) 100%) ;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

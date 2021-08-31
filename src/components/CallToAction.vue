@@ -2,11 +2,11 @@
 	<div class="cta-container">
 		<form action="">
 			<div class="input-container">
-				<input type="text" placeholder="Email address">
+				<input type="text" placeholder="Email address" class="mr-3">
 
-				<button class="btn btn-blue-gradient">Connect With Me</button>
+				<button class="btn btn-blue-gradient mr-3">Connect With Me</button>
 
-				<button class="btn btn-outline-blue">Contact</button>
+				<button class="btn btn-outline-blue w-1/3">Contact</button>
 			</div>
 		</form>
 	</div>
@@ -43,30 +43,5 @@ export default {
 
 	input::placeholder {
 		color: #AABBC6;
-	}
-
-	.btn {
-		width: 55%;
-		margin: 0 13px;
-		border-radius: 4px;
-		letter-spacing: 1px;
-		font-size: 0.9em;
-	}
-
-	.btn-blue-gradient {
-		border: 0;
-		color: white;
-		background: linear-gradient(90deg, rgba(77,97,196,1) 36%, rgba(61,172,237,1) 100%);
-	}
-
-	.btn-outline-blue {
-		border: 1px solid #4D61C4;
-		color: #4D61C4;
-		background: transparent;
-	}
-
-	.btn:last-child {
-		margin-left: 0;
-		margin-right: 13px;
 	}
 </style>
