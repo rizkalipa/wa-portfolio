@@ -1,12 +1,14 @@
 <template>
-	<div class="cta-container">
+	<div class="absolute w-full lg:w-cta bottom-5 md:bottom-40 lg:bottom-12 bg-white px-7 py-6 cta-shadow z-10">
 		<form action="">
-			<div class="input-container">
+			<div class="grid md:grid-cols-2 gap-3">
 				<input type="text" placeholder="Email address" class="mr-3">
 
-				<button class="btn btn-blue-gradient w-2/3 mr-3">Connect With Me</button>
+				<div class="grid grid-cols-3 gap-3">
+					<button class="btn btn-blue-gradient col-span-2 w-full mr-3 py-3 px-5">Connect With Me</button>
 
-				<button class="btn btn-outline-blue w-1/3">Contact</button>
+					<button class="btn btn-outline-blue w-full">Contact</button>
+				</div>
 			</div>
 		</form>
 	</div>
@@ -19,18 +21,6 @@ export default {
 </script>
 
 <style scoped>
-	.cta-container {
-		padding: 30px 20px;
-		width: 670px;
-		position: absolute;
-		bottom: 65px;
-		background-color: white;
-		box-shadow: -15px 30px 60px 2px rgba(77, 97, 196, 0.2);
-	}
-
-	.input-container {
-		display: flex;
-	}
 
 	input {
 		width: 100%;

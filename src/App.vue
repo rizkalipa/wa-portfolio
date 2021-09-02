@@ -1,7 +1,13 @@
 <template>
 	<div id="app">
-		<div class="container">
+		<div class="w-4/5 md:container mx-auto hidden md:inline-block relative">
 			<Navbar />
+		</div>
+
+		<div class="bg-white w-full py-3 inline-block md:hidden">
+			<div class="w-4/5 mx-auto">
+				<MobileNavbar />
+			</div>
 		</div>
 
 		<router-view />
@@ -44,10 +50,17 @@
 	}
 </style>
 
+<style lang="postcss">
+.custom-container {
+	@apply w-4/5 md:w-10/12 mx-auto
+}
+</style>
+
 <script>
 import Navbar from "./components/Navbar";
+import MobileNavbar from "./components/MobileNavbar";
 
 export default {
-	components: {Navbar}
+	components: {MobileNavbar, Navbar}
 }
 </script>

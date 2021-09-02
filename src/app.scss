@@ -1,0 +1,46 @@
+body {
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.text-blue-gradient {
+	background: linear-gradient(90deg, rgba(77,97,196,1) 36%, rgba(61,172,23,1) 100%) ;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.slide-leave-active,
+.slide-enter-active {
+	transition: .5s;
+}
+.slide-enter {
+	transform: translate(-100%, 0);
+}
+.slide-leave-to {
+	transform: translate(-100%, 0);
+}
+
+.slide-up-leave-active,
+.slide-up-enter-active {
+	transition: .5s;
+}
+.slide-up-enter {
+	transform: translate(0, 100%);
+}
+.slide-up-leave-to {
+	transform: translate(0, 100%);
+}
+
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+	opacity: 0;
+}
+
+
+

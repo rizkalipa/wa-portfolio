@@ -5,17 +5,47 @@
 		</div>
 		
 		<div class="navbar-menu">
-			<a class="navbar-item active" href="">Home</a>
-			<a class="navbar-item" href="">About</a>
-			<a class="navbar-item" href="">Case Study</a>
-			<a class="navbar-item" href="">Contact</a>
+			<a class="navbar-item" :class="{'active': home}" @click="navChange('home')" href="#home">Home</a>
+			<a class="navbar-item" :class="{'active': about}" @click="navChange('about')" href="#aboutMe">About</a>
+			<a class="navbar-item" :class="{'active': portfolio}" @click="navChange('portfolio')" href="#portfolio">Case Study</a>
+			<a class="navbar-item" :class="{'active': contact}" @click="navChange('cantact')" href="#contact">Contact</a>
 		</div>
 	</div>
 </template>
 
 <script>
 export default {
-	name: "Navbar"
+	name: "Navbar",
+	data() {
+		return {
+			url: location.href,
+			home: true,
+			about: false,
+			portfolio: false,
+			contact: false
+		}
+	},
+	methods: {
+		navChange(nav) {
+			this.home = false
+			this.about = false
+			this.portfolio = false
+			this.contact = false
+
+			switch (nav) {
+				case 'home': this.home = true;
+					break;
+				case 'about': this.about = true;
+					break;
+				case 'portfolio': this.portfolio = true;
+					break;
+				case 'contact': this.contact = true;
+					break;
+				default: this.home = true;
+					break;
+			}
+		},
+	}
 }
 </script>
 
@@ -27,23 +57,20 @@ export default {
 		align-items: center;
 		margin: 41px 0;
 		position: absolute;
+		z-index: 30;
 		top: 0;
 		right: 0;
 		left: 0;
 	}
 
-	.navbar-menu {
-
-	}
-
 	.navbar-item {
 		display: inline-block;
-		text-decoration: none;
 		font-weight: bold;
 		padding: 5px 10px;
 		margin: 0 30px;
 		font-size: 18px;
 		color: white;
+		cursor: pointer;
 	}
 
 	.navbar-item:last-child {
