@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<div class="w-4/5 md:container mx-auto hidden md:inline-block relative">
+		<div class="w-4/5 md:w-11/12 mx-auto hidden md:inline-block relative">
 			<Navbar />
 		</div>
 

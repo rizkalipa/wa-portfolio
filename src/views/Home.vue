@@ -5,12 +5,12 @@
 				<div class="w-full my-24 md:mt-52 md:my-0 lg:mt-0 lg:w-1/2 h-full relative">
 					<div class="h-full flex-col lg:flex justify-center text-left">
 						<div class="w-full sm:w-3/4">
-							<h2 class="text-white md:text-primary font-bold leading-loose md:leading-loose text-xl md:text-2xl md:stroke-white">
+							<h2 class="text-white md:text-blue-600 font-bold leading-loose md:leading-loose text-xl md:text-2xl md:stroke-white">
 								Hi, i'm Willy Aprada
 							</h2>
 							<h1 class="text-white md:text-black leading-tight md:leading-tight text-4xl md:text-5xl font-bold md:stroke-white">
 								Building digital products, brands <br>
-								<span class="text-white md:text-primary"><img src="../assets/images/ic_skill.png" class="inline-block" style="width: 7%"> experience.</span>
+								<span class="text-white md:text-blue-600"><img src="../assets/images/ic_skill.png" class="inline-block" style="width: 7%"> experience.</span>
 							</h1>
 							<p class="text-sm md:text-lg text-white md:text-black leading-loose md:leading-loose mt-2 relative z-10">
 								a <strong>Product Designer</strong> and <strong>Visual Developer</strong><br>
@@ -35,7 +35,7 @@
 			<img src="../assets/images/sponsor-icon.png" class="w-5/6 mx-auto">
 		</div>
 
-		<div id="aboutMe" class="w-4/5 mx-auto sm:w-11/12 mb-52">
+		<div id="aboutMe" class="w-4/5 mx-auto lg:w-11/12 mb-52">
 			<div class="w-full grid md:flex">
 				<div class="w-full lg:w-1/2 px-5 mb-12 md:mb-0">
 					<img src="../assets/images/icon-image-section.png">
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 
-		<div id="portfolio" class="w-4/5 mx-auto sm:w-11/12 mb-52">
+		<div id="portfolio" class="w-4/5 mx-auto lg:w-11/12 mb-52">
 			<h1 class="text-2xl mb-5">Portfolio</h1>
 			<h2 class="text-4xl text-blue-gradient font-bold">Selected Works</h2>
 

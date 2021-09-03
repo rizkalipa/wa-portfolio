@@ -1,16 +1,32 @@
 <template>
-	<div class="absolute w-full lg:w-cta bottom-5 md:bottom-40 lg:bottom-12 bg-white px-7 py-6 cta-shadow z-10">
-		<form action="">
-			<div class="grid md:grid-cols-2 gap-3">
-				<input type="text" placeholder="Email address" class="mr-3">
+	<div>
+		<div class="absolute w-full inline lg:hidden bottom-5 md:bottom-40 lg:bottom-12 bg-white px-7 py-6 cta-shadow z-10">
+			<form action="">
+				<div class="grid md:grid-cols-2 gap-3">
+					<input type="text" placeholder="Email address" class="mr-3">
 
-				<div class="grid grid-cols-3 gap-3">
-					<button class="btn btn-blue-gradient col-span-2 w-full mr-3 py-3 px-5">Connect With Me</button>
+					<div class="grid grid-cols-3 gap-3">
+						<button class="btn btn-blue-gradient col-span-2 w-full mr-3 py-3 px-5">Connect With Me</button>
 
-					<button class="btn btn-outline-blue w-full">Contact</button>
+						<button class="btn btn-outline-blue w-full">Contact</button>
+					</div>
 				</div>
-			</div>
-		</form>
+			</form>
+		</div>
+
+		<div class="absolute hidden lg:inline w-cta bottom-5 md:bottom-40 lg:bottom-12 bg-white px-7 py-6 cta-shadow z-10">
+			<form action="">
+				<div class="grid md:grid-cols-2 gap-3">
+					<input type="text" placeholder="Email address" class="mr-3">
+
+					<div class="grid grid-cols-3 gap-3">
+						<button class="btn btn-blue-gradient col-span-2 w-full mr-3 py-3 px-5">Connect With Me</button>
+
+						<button class="btn btn-outline-blue w-full">Contact</button>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 </template>
 
@@ -20,7 +36,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 	input {
 		width: 100%;
@@ -34,4 +50,8 @@ export default {
 	input::placeholder {
 		color: #AABBC6;
 	}
+</style>
+
+<style lang="postcss">
+
 </style>
