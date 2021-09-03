@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="w-11/12 my-32 sm:my-52">
+		<div class="w-11/12 mx-auto my-32 sm:my-52">
 			<img src="../assets/images/sponsor-icon.png" class="w-5/6 mx-auto">
 		</div>
 
