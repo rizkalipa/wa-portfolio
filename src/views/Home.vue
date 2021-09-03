@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div id="home" class="home h-770 sm:w-full">
-			<div class="w-4/5 lg:container mx-auto h-full flex flex-wrap justify-between">
+			<div class="w-4/5 lg:w-11/12 mx-auto h-full flex flex-wrap justify-between">
 				<div class="w-full my-24 md:mt-52 md:my-0 lg:mt-0 lg:w-1/2 h-full relative">
 					<div class="h-full flex-col lg:flex justify-center text-left">
 						<div class="w-full sm:w-3/4">
@@ -25,17 +25,17 @@
 					</div>
 				</div>
 
-				<div class="w-full hidden lg:inline md:w-1/2 relative h-100">
-					<img src="../assets/images/img.png" class="absolute bottom-0 right-1 w-4/5">
+				<div class="w-full hidden lg:inline lg:w-1/3 relative h-100">
+					<img src="../assets/images/img.png" class="absolute bottom-0 right-1 w-full">
 				</div>
 			</div>
 		</div>
 
-		<div class="container my-32 sm:my-52">
+		<div class="w-11/12 my-32 sm:my-52">
 			<img src="../assets/images/sponsor-icon.png" class="w-5/6 mx-auto">
 		</div>
 
-		<div id="aboutMe" class="w-4/5 mx-auto sm:container mb-52">
+		<div id="aboutMe" class="w-4/5 mx-auto sm:w-11/12 mb-52">
 			<div class="w-full grid md:flex">
 				<div class="w-full lg:w-1/2 px-5 mb-12 md:mb-0">
 					<img src="../assets/images/icon-image-section.png">
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 
-		<div id="portfolio" class="w-4/5 mx-auto sm:container mb-52">
+		<div id="portfolio" class="w-4/5 mx-auto sm:w-11/12 mb-52">
 			<h1 class="text-2xl mb-5">Portfolio</h1>
 			<h2 class="text-4xl text-blue-gradient font-bold">Selected Works</h2>
 
@@ -82,7 +82,7 @@
 		</div>
 		<ViewGallery :id="selectedPortfolioId" :is-open="isGalleryOpen" @close="isGalleryOpen = false" />
 
-		<div id="contact" class="container pb-32 overflow-x-hidden">
+		<div id="contact" class="w-11/12 mx-auto pb-32 overflow-x-hidden">
 			<div class="p-12 text-white text-left rounded bg-contact relative">
 				<div class="w-full lg:w-2/3">
 					<h5 class="text-2xl mb-5 font-bold">HIRE ME</h5>
