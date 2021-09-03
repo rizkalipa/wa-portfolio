@@ -80,7 +80,7 @@
 				<div @click="openGallery(2)" class="cursor-pointer"><img src="../assets/images/thumbnail-6.png" alt=""></div>
 			</div>
 		</div>
-		<ViewGallery v-if="isGalleryOpen" :id="selectedPortfolioId" :is-open="isGalleryOpen" @close="isGalleryOpen = false" />
+		<ViewGallery :id="selectedPortfolioId" :is-open="isGalleryOpen" @close="isGalleryOpen = false" />
 
 		<div id="contact" class="container pb-32 overflow-x-hidden">
 			<div class="p-12 text-white text-left rounded bg-contact relative">

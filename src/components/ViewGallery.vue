@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full flex overflow-hidden">
 		<transition name="slide-up">
-			<div v-if="isOpen" class="fixed overflow-y-auto w-full h-full bg-white bottom-0 rounded-xl z-30 shadow">
+			<div v-if="isOpen && id" class="fixed overflow-y-auto w-full h-full bg-white bottom-0 rounded-xl z-30 shadow">
 				<div class="grid-cols-2 md:flex justify-between items-center p-10">
 					<div class="hidden md:inline-block w-1/3">
 						<img src="@/assets/images/wa-portfolio-logo.png" alt="">
@@ -104,14 +104,11 @@ export default {
 				]
 			},
 		]
-
-		let data = this.getSelectedData
-		this.previewImage = data.images[0]
 	},
 	data() {
 		return {
 			staticImages: [],
-			previewImage: ''
+			previewImage: 'a-1.png'
 		}
 	},
 	methods: {
@@ -126,6 +123,12 @@ export default {
 	computed: {
 		getSelectedData() {
 			return this.staticImages[this.id - 1]
+		}
+	},
+	watch: {
+		id() {
+			let data = this.getSelectedData
+			this.previewImage = data.images[0]
 		}
 	}
 }
