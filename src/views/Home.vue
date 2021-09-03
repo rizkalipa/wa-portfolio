@@ -54,9 +54,9 @@
 
 							<br><br>
 
-							Currently I work for PT. Qupintar Media Digital as UI Designer since 2019
-							I’ve been freelancing for the last 1 years, and right now
-							I am looking forward to collaborate with you!
+							My last work experience was working at PT. Qupintar Media Digital as UI/UX Designer
+							since 2020 I've been working freelance for the last 1 year,
+							and now I look forward to collaborating with you!
 						</p>
 					</div>
 
