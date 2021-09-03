@@ -13,8 +13,8 @@
 					</div>
 
 					<div class="w-full flex flex-wrap">
-						<div v-for="(item, index) in getSelectedData.images" class="w-1/5 mr-5 cursor-pointer" :key="index">
-							<img @click="previewImage = item" :src="getImageUrl(item)" class="h-auto border-2 border-white hover:border-primary hover:shadow-primary">
+						<div v-for="(item, index) in getSelectedData.images" class="w-24 h-20 mr-5 cursor-pointer" :key="index">
+							<img @click="previewImage = item" :src="getImageUrl(item)" class="w-full h-full object-cover border-2 border-white hover:border-primary hover:shadow-primary">
 						</div>
 					</div>
 

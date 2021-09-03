@@ -22,7 +22,7 @@
 					<div class="grid gap-4">
 						<a class="text-left px-10 py-3 hover:bg-blue-gradient flex justify-between" :class="{'active': home}" @click="navChange('home')" href="#home">Home <i class="fas fa-chevron-right text-xs ml-5"></i></a>
 						<a class="text-left px-10 py-3 hover:bg-blue-gradient flex justify-between" :class="{'active': about}" @click="navChange('about')" href="#aboutMe">About <i class="fas fa-chevron-right text-xs ml-5"></i></a>
-						<a class="text-left px-10 py-3 hover:bg-blue-gradient flex justify-between" :class="{'active': portfolio}" @click="navChange('portfolio')" href="#portfolio">Case Study <i class="fas fa-chevron-right text-xs ml-5"></i></a>
+						<a class="text-left px-10 py-3 hover:bg-blue-gradient flex justify-between" :class="{'active': portfolio}" @click="navChange('portfolio')" href="#portfolio">Portfolio <i class="fas fa-chevron-right text-xs ml-5"></i></a>
 						<a class="text-left px-10 py-3 hover:bg-blue-gradient flex justify-between" :class="{'active': contact}" @click="navChange('cantact')" href="#contact">Contact <i class="fas fa-chevron-right text-xs ml-5"></i></a>
 					</div>
 				</div>

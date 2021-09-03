@@ -7,7 +7,7 @@
 		<div class="navbar-menu">
 			<a class="navbar-item" :class="{'active': home}" @click="navChange('home')" href="#home">Home</a>
 			<a class="navbar-item" :class="{'active': about}" @click="navChange('about')" href="#aboutMe">About</a>
-			<a class="navbar-item" :class="{'active': portfolio}" @click="navChange('portfolio')" href="#portfolio">Case Study</a>
+			<a class="navbar-item" :class="{'active': portfolio}" @click="navChange('portfolio')" href="#portfolio">Portfolio</a>
 			<a class="navbar-item" :class="{'active': contact}" @click="navChange('cantact')" href="#contact">Contact</a>
 		</div>
 	</div>

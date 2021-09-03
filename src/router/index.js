@@ -9,11 +9,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
-  },
-  {
-    path: "*",
-   component: Home,
-  },
+  }
 ];
 
 const router = new VueRouter({

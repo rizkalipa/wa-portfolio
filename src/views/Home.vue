@@ -12,7 +12,7 @@
 								Building digital products, brands <br>
 								<span class="text-white md:text-blue-600"><img src="../assets/images/ic_skill.png" class="inline-block" style="width: 7%"> experience.</span>
 							</h1>
-							<p class="text-sm md:text-lg text-white md:text-black leading-loose md:leading-loose mt-2 relative z-10">
+							<p class="text-lg md:text-lg text-white md:text-black leading-loose md:leading-loose mt-2 relative z-10">
 								a <strong>Product Designer</strong> and <strong>Visual Developer</strong><br>
 								I Specialize in UI/UX Design, Responsive Web Design,
 								and Visual Development.
@@ -46,7 +46,7 @@
 						<h1 class="text-2xl md:text-3xl mb-5">About Me</h1>
 						<hr class="w-1/5 mb-5 bg-black border-black">
 
-						<p class="font-light">
+						<p class="font-light text-lg leading-loose">
 							I am Wili Aprada, a product designer from Jakarta
 							and I have been working as a UI/UX designer for more than 1 years.
 							Exploring minimalist designs and having good functionality is my hobby.
@@ -60,9 +60,9 @@
 						</p>
 					</div>
 
-					<button class="btn btn-blue-gradient py-3 px-2 w-full md:w-1/4">
+					<a href="assets/wili.pdf" target="_blank" class="btn btn-blue-gradient py-3 px-2 w-full md:w-1/4 text-center">
 						Resume
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -111,8 +111,12 @@
 				</div>
 
 				<div class="flex justify-between w-2/4 md:w-1/5 mb-72 lg:mb-16">
-					<div><img src="../assets/images/instagram.png" alt="" class="w-2/4 shadow"></div>
-					<div><img src="../assets/images/whatsapp.png" alt="" class="w-2/4 shadow"></div>
+					<div>
+						<a href="https://www.instagram.com/waprd/" target="_blank"><img src="../assets/images/instagram.png" alt="" class="w-2/4 shadow"></a>
+					</div>
+					<div>
+						<a href="https://wa.wizard.id/c2fb05" target="_blank"><img src="../assets/images/whatsapp.png" alt="" class="w-2/4 shadow"></a>
+					</div>
 					<div><img src="../assets/images/linkedin.png" alt="" class="w-2/4 shadow"></div>
 				</div>
 
@@ -121,7 +125,7 @@
 				</div>
 
 				<div class="absolute w-3/5 sm:w-2/5 bottom-0 -right-9">
-					<img src="../assets/images/wili-ngentot.png" class="">
+					<img src="../assets/images/wili.png" class="">
 				</div>
 			</div>
 		</div>
@@ -150,8 +154,12 @@ export default {
 		openGallery(id) {
 			this.isGalleryOpen = true
 			this.selectedPortfolioId = id
+		},
+		openPdf() {
+			let pdf = require('../../static/wili.pdf')
+			window.open(pdf, '_blank')
 		}
-	}
+	},
 };
 </script>
 
