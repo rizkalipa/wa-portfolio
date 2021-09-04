@@ -60,7 +60,7 @@
 						</p>
 					</div>
 
-					<a href="assets/wili.pdf" target="_blank" class="btn btn-blue-gradient py-3 px-2 w-full md:w-1/4 text-center">
+					<a href="assets/wili-aprada-cv.pdf" target="_blank" class="btn btn-blue-gradient py-3 px-2 w-full md:w-1/4 text-center">
 						Resume
 					</a>
 				</div>
@@ -154,10 +154,6 @@ export default {
 		openGallery(id) {
 			this.isGalleryOpen = true
 			this.selectedPortfolioId = id
-		},
-		openPdf() {
-			let pdf = require('../../static/wili.pdf')
-			window.open(pdf, '_blank')
 		}
 	},
 };

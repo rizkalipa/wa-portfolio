@@ -3,10 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./app.scss"
-import "tailwindcss/dist/tailwind.css"
-import "../src/assets/css/tailwind.css"
+import "./index.css"
 import "@fortawesome/fontawesome-free/css/all.min.css"
-import "../public/assets/wili.pdf"
 
 Vue.config.productionTip = false;
 
