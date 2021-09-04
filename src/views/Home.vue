@@ -13,13 +13,13 @@
 								<span class="text-white md:text-blue-600"><img src="../assets/images/ic_skill.png" class="inline-block" style="width: 7%"> experience.</span>
 							</h1>
 							<p class="text-lg md:text-lg text-white md:text-black leading-loose md:leading-loose mt-2 relative z-10">
-								a <strong>Product Designer</strong> and <strong>Visual Developer</strong><br>
-								I Specialize in UI/UX Design, Responsive Web Design,
+								a <strong>Product Designer</strong> and <strong>Visual Developer.</strong><br class="hidden md:inline">
+								Specialize in UI/UX Design, Responsive Web Design,
 								and Visual Development.
 							</p>
 						</div>
 
-						<img src="../assets/images/img.png" class="absolute inline lg:hidden bottom-32 md:bottom-52 right-10 md:-right-9 sm:-right-6 w-5/6 sm:w-96">
+						<img src="../assets/images/img.png" class="absolute inline lg:hidden bottom-24 md:bottom-52 right-10 md:-right-9 sm:-right-6 w-5/6 sm:w-96">
 
 						<CallToAction />
 					</div>
@@ -97,7 +97,7 @@
 								<input type="text" class="w-full py-3 px-3 rounded text-black" placeholder="Email">
 							</div>
 						</div>
-						
+
 						<div class="w-full mb-5">
 							<textarea name="" id="" cols="30" rows="10" class="w-full py-3 px-3 rounded text-black" placeholder="Message..."></textarea>
 						</div>
